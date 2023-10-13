@@ -15,9 +15,9 @@ int main(void) {
 	char string[100];
 
 	/* Read and save an integer, double, and String to your variables.*/
-	scanf("%d", &num);
-	scanf("%lf", doub);
 	scanf("%[^\n]", string);
+	scanf("%d", &num);
+	scanf("%lf", &doub);
 
 	/* Print the sum of both integer variables on a new line.*/
 	printf("%d\n", i + num);
@@ -26,8 +26,7 @@ int main(void) {
 	printf("%.1f\n", d + doub);
 
 	/* Concatenate and print the String variables on a new line*/
-	strcat(s, string);
-	printf("%s\n", s);
+	printf("%s %s\n", s, string);
 	/* The 's' variable above should be printed first.*/
 
 	return (0);
