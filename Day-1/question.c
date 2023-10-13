@@ -23,7 +23,7 @@ int main(void) {
 	printf("%d\n", i + num);
 
 	/* Print the sum of the double variables on a new line.*/
-	printf("%.1lf\n", d + doub);
+	printf("%.1f\n", d + doub);
 
 	/* Concatenate and print the String variables on a new line*/
 	strcat(s, string);
