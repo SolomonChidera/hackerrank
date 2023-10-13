@@ -1,7 +1,7 @@
 # hackerrank
 Coding questions from hackerrank #30Days of coding
 
-Language for competition?
+Language for challenge?
 - C programming
 
 Questions per day?
