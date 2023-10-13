@@ -12,7 +12,7 @@ int main(void) {
 	/* Declare second integer, double, and String variables.*/
 	int num;
 	double doub;
-	char string[100];
+	char *string = "is the best place to learn and practice coding!";
 
 	/* Read and save an integer, double, and String to your variables.*/
 	scanf("%d", &num);
@@ -25,7 +25,7 @@ int main(void) {
 	printf("%.1f\n", d + doub);
 
 	/* Concatenate and print the String variables on a new line*/
-	printf("%s %s\n", s, string);
+	printf("%s%s\n", s, string);
 	/* The 's' variable above should be printed first.*/
 
 	return (0);
