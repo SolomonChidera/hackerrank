@@ -18,6 +18,7 @@ int main(void) {
 	scanf("%[^\n]", string);
 	scanf("%d", &num);
 	scanf("%lf", &doub);
+	scanf("%[^\0]s", string);
 
 	/* Print the sum of both integer variables on a new line.*/
 	printf("%d\n", i + num);
