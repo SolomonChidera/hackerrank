@@ -17,7 +17,7 @@ int main(void) {
 	/* Read and save an integer, double, and String to your variables.*/
 	scanf("%d", &num);
 	scanf("%lf", doub);
-	scanf("%[^\n]", &string);
+	scanf("%[^\n]", string);
 
 	/* Print the sum of both integer variables on a new line.*/
 	printf("%d\n", i + num);
