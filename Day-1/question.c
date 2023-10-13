@@ -15,7 +15,6 @@ int main(void) {
 	char string[100];
 
 	/* Read and save an integer, double, and String to your variables.*/
-	scanf("%[^\n]", string);
 	scanf("%d", &num);
 	scanf("%lf", &doub);
 
