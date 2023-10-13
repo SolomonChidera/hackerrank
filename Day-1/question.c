@@ -12,7 +12,7 @@ int main(void) {
 	/* Declare second integer, double, and String variables.*/
 	int num;
 	double doub;
-	char *string;
+	char string[];;
 
 	/* Read and save an integer, double, and String to your variables.*/
 	scanf("%d", &num);
