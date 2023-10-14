@@ -25,7 +25,8 @@ int main(void) {
 	printf("%.1f\n", d + doub);
 
 	/* Concatenate and print the String variables on a new line*/
-	printf("%s%s\n", s, string);
+	printf("%s\n", string);
+	printf("%s\n", s);
 	/* The 's' variable above should be printed first.*/
 
 	return (0);
